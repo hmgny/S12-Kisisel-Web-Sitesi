@@ -1,0 +1,329 @@
+{
+  "en": {
+    "header": {
+      "mode": {
+        "light": "LIGHT MODE",
+        "dark": "DARK MODE"
+      },
+      "hi": "hi!",
+      "paragraf": "I'm Almila. I'm a full-stack developer. I can craft solid and scalable frontend products. Let's meet!",
+      "aciklama": "Currently Freelancing for UX, UI, & Web Design Project. Invite me to join your team → pratamaiosi@gmail.com"
+    },
+    "skills": {
+      "skillsTitle": "Skills",
+      "skill": [
+        {
+          "id": 1,
+          "skill": "JAVASCRIPT",
+          "img": "/images/js.jpg"
+        },
+        {
+          "id": 2,
+          "skill": "REACT",
+          "img": "/images/react.png"
+        },
+        {
+          "id": 3,
+          "skill": "REDUX",
+          "img": "/images/redux.png"
+        },
+        {
+          "id": 4,
+          "skill": "NODE",
+          "img": "/images/node.jpg"
+        },
+        {
+          "id": 5,
+          "skill": "VS CODE",
+          "img": "/images/vs_code.png"
+        },
+        {
+          "id": 6,
+          "skill": "FIGMA",
+          "img": "/images/figma.jpg"
+        }
+      ]
+    },
+    "profile": {
+      "profileTitle": "Profile",
+      "basicTitle": "Basic Information",
+      "basicInformation": [
+        {
+          "id": 1,
+          "soru": "Date of birth",
+          "cevap": "24.03.1996"
+        },
+        {
+          "id": 2,
+          "soru": "City of residence",
+          "cevap": "Ankara"
+        },
+        {
+          "id": 3,
+          "soru": "Educational Status",
+          "cevap": "Hacettepe University Undergraduate Biology, 2016"
+        },
+        {
+          "id": 4,
+          "soru": "Preferred Role",
+          "cevap": "Frontend, UI"
+        }
+      ],
+      "aboutTitle": "About Me",
+      "aboutMe": [
+        {
+          "id": 1,
+          "paragraf": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia."
+        },
+        {
+          "id": 2,
+          "paragraf": "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+        }
+      ]
+    },
+    "projects": {
+      "projectsTitle": "Projects",
+      "projeler": [
+        {
+          "id": 1,
+          "projeAdi": "Random Jokes",
+          "aciklama": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+          "img": "",
+          "links": [
+            {
+              "link": "Viev on Github"
+            },
+            {
+              "link": "Go to app →"
+            }
+          ],
+          "buttons": [
+            {
+              "button": "react"
+            },
+            {
+              "button": "vercel"
+            },
+            {
+              "button": "axios"
+            },
+            {
+              "button": "router"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "projeAdi": "Are you bored?",
+          "aciklama": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+          "links": [
+            {
+              "link": "View on Github"
+            },
+            {
+              "link": "Go to app →"
+            }
+          ],
+          "buttons": [
+            {
+              "button": "react"
+            },
+            {
+              "button": "redux"
+            },
+            {
+              "button": "axios"
+            },
+            {
+              "button": "router"
+            },
+            {
+              "button": "vercel"
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "message": "Let's work together on your next product.",
+        "links": [
+          {
+            "link": "Github"
+          },
+          {
+            "link": "Personel Blog"
+          },
+          {
+            "link": "Linkedin"
+          },
+          {
+            "link": "Email"
+          }
+        ]
+      }
+    }
+  },
+
+  "tr": {
+    "header": {
+      "mode": {
+        "light": "AÇIK MODE",
+        "dark": "KOYU MODE"
+      },
+      "hi": "selam!",
+      "paragraf": "Ben Almila. Full-stack geliştiriciyim. Solid ve ölçeklenebilir frontend ürünleri geliştirebilirim. Hadi tanışalım!",
+      "aciklama": "Şu anda UX, UI ve Web Tasarım projeleri için serbest çalışıyorum. Ekibinize katılmam için beni davet edin → pratamaiosi@gmail.com"
+    },
+    "skills": {
+      "skillsTitle": "Yetenekler",
+      "skill": [
+        {
+          "id": 1,
+          "skill": "JAVASCRIPT",
+          "img": "/images/js.jpg"
+        },
+        {
+          "id": 2,
+          "skill": "REACT",
+          "img": "/images/react.png"
+        },
+        {
+          "id": 3,
+          "skill": "REDUX",
+          "img": "/images/redux.png"
+        },
+        {
+          "id": 4,
+          "skill": "NODE",
+          "img": "/images/node.jpg"
+        },
+        {
+          "id": 5,
+          "skill": "VS CODE",
+          "img": "/images/vs_code.png"
+        },
+        {
+          "id": 6,
+          "skill": "FIGMA",
+          "img": "/images/figma.jpg"
+        }
+      ]
+    },
+    "profile": {
+      "profileTitle": "Profil",
+      "basicTitle": "Temel Bilgiler",
+      "basicInformation": [
+        {
+          "id": 1,
+          "soru": "Doğum tarihi",
+          "cevap": "24.03.1996"
+        },
+        {
+          "id": 2,
+          "soru": "İkamet Şehri",
+          "cevap": "Ankara"
+        },
+        {
+          "id": 3,
+          "soru": "Eğitim Durumu",
+          "cevap": "Hacettepe Ünv. Biyoloji Lisans, 2016"
+        },
+        {
+          "id": 4,
+          "soru": "Tercih Ettiği Rol",
+          "cevap": "Frontend, UI"
+        }
+      ],
+      "aboutTitle": "Hakkımda",
+      "aboutMe": [
+        {
+          "id": 1,
+          "paragraf": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia."
+        },
+        {
+          "id": 2,
+          "paragraf": "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+        }
+      ]
+    },
+    "projects": {
+      "projectsTitle": "Projeler",
+      "projeler": [
+        {
+          "id": 1,
+          "projeAdi": "Rastgele Şakalar",
+          "aciklama": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+          "links": [
+            {
+              "link": "Github'da görüntüle"
+            },
+            {
+              "link": "Uygulamaya git →"
+            }
+          ],
+          "buttons": [
+            {
+              "button": "react"
+            },
+            {
+              "button": "vercel"
+            },
+            {
+              "button": "axios"
+            },
+            {
+              "button": "router"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "projeAdi": "Sıkıldın mı?",
+          "aciklama": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+          "img": "",
+          "links": [
+            {
+              "link": "Github'da görüntüle"
+            },
+            {
+              "link": "Uygulamaya git →"
+            }
+          ],
+          "buttons": [
+            {
+              "button": "react"
+            },
+            {
+              "button": "redux"
+            },
+            {
+              "button": "axios"
+            },
+            {
+              "button": "router"
+            },
+            {
+              "button": "vercel"
+            }
+          ]
+        }
+      ],
+      "footer": {
+        "message": "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
+        "links": [
+          {
+            "link": "Github"
+          },
+          {
+            "link": "Personel Blog"
+          },
+          {
+            "link": "Linkedin"
+          },
+          {
+            "link": "Email"
+          }
+        ]
+      }
+    }
+  }
+}
