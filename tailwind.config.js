@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html","./src/**/*.{js,ts,jsx,tsx}",],
+  darkMode:"class",
   theme: {
     extend: {
       colors:{
@@ -15,7 +16,13 @@ export default {
         Yesil:"#D9F6F1",
         Github: "#1769FF",
         Linkedin: "#0077b5",
-        mail: "#AF0C48"
+        mail: "#AF0C48",
+        darkGray: "#2A262B",
+        middlegray:"#484148",
+        skill: "#D9D9D9",
+        Info:"#525252",
+        darkYesil: "#2D3235",
+        middleYesil: "#495351"
       },
       width:{
         w480 : "480px"

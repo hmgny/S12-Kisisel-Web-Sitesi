@@ -36,13 +36,13 @@ function Skills() {
 
 
     return (
-        <div className="flex flex-col items-center gap-12 p-20">
-            <p className="text-Siyah0a0a14 text-5xl">Skills</p>
+        <div className="flex flex-col items-center gap-12 p-20 dark:bg-middlegray">
+            <p className="text-Siyah0a0a14 text-5xl dark:text-lightGray">Skills</p>
             <div className="flex gap-12">
                 {skills.map((veri)=>{
                     return <div className="flex-col">
                     <img className="w-32 aspect-square object-cover" src={veri.img}/>
-                    <p className="text-Gri text-2xl flex justify-center pt-4">{veri.skill}</p>
+                    <p className="text-Gri text-2xl flex justify-center pt-4 dark:text-skill">{veri.skill}</p>
                 </div>
                 })}
             </div>

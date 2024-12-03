@@ -39,11 +39,11 @@ function Profile() {
 
 
     return (
-        <div className="flex flex-col bg-lightGray py-20 px-32">
-            <header className="text-4xl flex justify-center">Profile</header>
+        <div className="flex flex-col bg-lightGray py-20 px-32 dark:bg-darkGray dark:text-white">
+            <header className="text-4xl flex justify-center ">Profile</header>
             <div className="flex justify-center gap-6">
                 <div>
-                <div className="bg-white m-12 p-12 flex flex-col leading-6 rounded-xl w-w480 h-h320 absolute z-20 gap-6">
+                <div className="bg-white m-12 p-12 flex flex-col leading-6 rounded-xl w-w480 h-h320 absolute z-20 gap-6 dark:bg-Info">
                     <section className="text-2xl text-Pembe">Basic Information</section>
                     {
                         basicInformation.map((data)=>{
@@ -54,12 +54,12 @@ function Profile() {
                         })
                     }
                 </div>
-                <div className="bg-Gri rounded-xl p-12 relative z-10 translate-x-1 w-w480 h-h320 translate-y-1 m-12"></div>
+                <div className="bg-Gri rounded-xl p-12 relative z-10 translate-x-2 w-w480 h-h320 translate-y-2 m-12 dark:bg-middlegray "></div>
                 </div>
-                <div className="mx-12 flex flex-col p-12 gap-6 max-w-96 leading-6">
-                    <section className="text-black text-2xl">{aboutTitle}</section>
+                <div className="mx-12 flex flex-col p-12 gap-6 max-w-2xl leading-6">
+                    <section className="text-black text-2xl dark:text-white">{aboutTitle}</section>
                     {aboutMe.map((paraf)=>{
-                      return <p className="text-black text-lg">{paraf.paragraf}</p>
+                      return <p className="text-black text-lg dark:text-white">{paraf.paragraf}</p>
                     })}
                 </div>
             </div>
