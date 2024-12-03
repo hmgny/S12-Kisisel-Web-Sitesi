@@ -1,3 +1,338 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* App.css in kopyası-tailwindde sorun çıkarsa  bunu kullan*/
+
+/*@import url("./reset.css");
+
+.flex {
+  display: flex;
+}
+.font-24 {
+  font-size: 24px;
+}
+.gap {
+  gap: 3rem;
+}
+.gap-l {
+  gap: 5rem;
+}
+.column {
+  flex-direction: column;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  padding: 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 5rem;
+  max-width: 1107px;
+}
+.header2 {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+}
+
+.butonlar {
+  display: flex;
+  gap: 1rem;
+}
+
+.buttonPembe {
+  background-color: #e92577;
+  width: 55px;
+  height: 24px;
+  border-radius: 100px;
+  border-style: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.textPembe {
+  color: #e92577;
+}
+
+.buttonSari {
+  background-color: #fff86e;
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+  border-style: none;
+}
+
+.darkMode {
+  color: #777777;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.dil {
+  color: #777777;
+  font-size: 15px;
+  border-style: none;
+  align-items: center;
+}
+
+.hi {
+  width: 89px;
+}
+
+.linkedin {
+  width: 31px;
+  height: 34px;
+}
+
+.github {
+  width: 34px;
+  height: 36px;
+}
+.sol {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.sosyal {
+  gap: 1.5rem;
+}
+.almila {
+  font-size: 42px;
+  max-width: 520px;
+  line-height: 1.3;
+}
+.paragraf {
+  font-size: 18px;
+  max-width: 450px;
+  line-height: 1.5;
+}
+
+.yazi {
+  max-width: 1107px;
+  display: flex;
+  gap: 15rem;
+}
+
+.profil_foto {
+  width: 340px;
+  aspect-ratio: 1/1;
+  border-radius: 22px;
+  position: absolute;
+  z-index: 2;
+  transform: translate(20px, 20px);
+  object-fit: cover;
+}
+
+.pembe {
+  position: relative;
+  z-index: 1;
+  background-color: #e92577;
+  width: 340px;
+  aspect-ratio: 1/1;
+  border-radius: 22px;
+}
+
+.bordo {
+  color: #af0c48;
+}
+
+.altCizgi {
+  text-decoration: underline;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 5rem;
+}
+.skill {
+  color: #0a0a14;
+  font-size: 48px;
+}
+.kare {
+  width: 120px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  padding: 5rem 8rem;
+}
+
+.profile {
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  background-color: #ffffff;
+  margin: 3rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  line-height: 21.75px;
+  border-radius: 12px;
+  width: 400px;
+  height: 222px;
+  position: absolute;
+  z-index: 2;
+}
+
+.cerceve {
+  background-color: #777777;
+  border-radius: 12px;
+  width: 400px;
+  height: 222px;
+  padding: 3rem;
+  position: relative;
+  z-index: 1;
+  transform: translate(10px, 10px);
+  margin: 3rem;
+}
+.basic {
+  font-size: 24px;
+  color: #e92577;
+}
+
+.soru {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bilgi {
+  font-size: 16px;
+}
+
+.box2 {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 1.5rem;
+  max-width: 390px;
+  line-height: 21.75px;
+}
+
+.about {
+  font-size: 24px;
+  color: #000000;
+}
+
+.lorem {
+  font-size: 18px;
+  color: #000000;
+}
+.yetenek {
+  color: #777777;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.projeler {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+}
+.projects {
+  padding: 3rem;
+}
+.projeMavi {
+  padding: 2rem 2rem 0 2rem;
+  gap: 1rem;
+  background-color: #ddeefe;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+.projeYesil {
+  padding: 2rem 2rem 0 2rem;
+  gap: 1rem;
+  background-color: #d9f6f1;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+.proje {
+  display: flex;
+  padding: 2rem;
+  gap: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.baslik {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.pLorem {
+  padding-right: 4.5rem;
+  font-size: 16px;
+  max-width: 340px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.pcFoto {
+  max-width: 100%;
+  height: auto;
+  text-align: end;
+}
+.buttongroup {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+  gap: 0.5rem;
+}
+.buttonBeyaz {
+  background-color: #ffffff;
+  border-style: none;
+  width: 81px;
+  height: 32px;
+  border-radius: 76px;
+  font-size: 16px;
+}
+.linkler {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+.link {
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 10rem;
+  gap: 4rem;
+}
+
+footer p {
+  font-size: 42px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  line-height: 63px;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: column;
+  line-height: 36px;
+}
+*/
