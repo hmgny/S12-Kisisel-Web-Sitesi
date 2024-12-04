@@ -28,9 +28,8 @@ function Header() {
         <section className="flex gap-4">
           <button
             onClick={handleClick}
-            className="bg-Pembe w-14 h-6 rounded-full border-none flex justify-end items-center"
-          >
-            <button className="bg-Sari w-4 h-4 rounded-full border-none"></button>
+            className={`${theme === "dark" ? "justify-end" : "justify-start" } bg-Pembe w-14 h-6 rounded-full border-none flex items-center`}
+          ><div className="bg-Sari w-4 h-4 mx-1 rounded-full border-none"></div>
           </button>
           <p className="text-Gri text-sm flex items-center">
             {theme === "dark" ? content.mode.dark : content.mode.light}
