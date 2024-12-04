@@ -12,7 +12,7 @@ function Profile() {
         <div className="flex flex-col bg-lightGray py-20 px-32 dark:bg-darkGray dark:text-white">
             <header className="text-5xl flex justify-center pb-12 ">{content.profileTitle}</header>
             <div className="lg:flex lg:justify-center whitespace-pre-wrap">
-                <div>
+                <div className="flex justify-center">
                 <div className="bg-white m-12 p-12 mt-0 flex flex-col leading-6 rounded-xl w-[520px] h-h320 absolute z-20 gap-6 dark:bg-Info">
                     <section className="text-2xl text-Pembe">{content.basicTitle}</section>
                     {
@@ -24,10 +24,10 @@ function Profile() {
                         })
                     }
                 </div>
-                <div className="bg-Gri rounded-xl p-12 mt-0 relative z-10 translate-x-2 w-[520px] h-h320 translate-y-2 m-12 dark:bg-middlegray "></div>
+                <div className="bg-Gri rounded-xl p-12 mt-0 relative z-10 translate-x-2 w-[520px] h-h320 translate-y-2 m-12 dark:bg-middlegray"></div>
                 </div>
-                <div className="mx-12 flex flex-col p-12 gap-6 max-w-[520px] leading-6">
-                    <section className="text-black text-2xl dark:text-white">{content.aboutTitle}</section>
+                <div className="mx-12 flex flex-col p-12 gap-6 lg:max-w-[520px] leading-6">
+                    <section className="text-black text-2xl dark:text-white flex justify-center lg:justify-start">{content.aboutTitle}</section>
                     {content.aboutMe.map((paraf)=>{
                       return <p className="text-black text-lg dark:text-white">{paraf.paragraf}</p>
                     })}

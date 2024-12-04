@@ -58,7 +58,7 @@ function Header() {
               src="../public/images/Hi!.png"
               alt="el simgesi"
             />
-            <p className="text-5xl leading-snug max-w-screen-md">
+            <p className="lg:text-5xl lg:leading-snug lg:max-w-screen-md flex text-2xl py-3">
               {content.paragraf}
             </p>
             <div className="lg:gap-6 lg:flex hidden">
@@ -73,20 +73,20 @@ function Header() {
                 alt="github simmgesi"
               />
             </div>
-            <p className="lg:text-lg lg:max-w-md lg:leading-normal hidden">
+            <p className="lg:text-lg lg:max-w-md lg:leading-normal lg:flex hidden ">
               {content.aciklama}
             </p>
             {/*<p className='text-lg max-w-md leading-normal'>Currently <span className='text-Bordo'>Freelancing</span> for <span className='text-Bordo'>UX, UI, & Web Design</span> Project. Invite me to join your team → <span className='text-Bordo underline'>pratamaiosi@gmail.com</span></p> */}
           </div>
 
-          <div className="pt-6">
+          <div className="pt-6 flex justify-center">
             <img
-              className="w-96 aspect-square rounded-3xl object-cover absolute z-20 translate-x-7 translate-y-7"
+              className="w-96 aspect-square rounded-3xl object-cover absolute z-20 translate-x-7 translate-y-7 "
               src="../public/images/profil.png"
               alt="Profil resmi"
             />
             <div
-              className="bg-Pembe w-96 aspect-square rounded-3xl relative z-10 "
+              className="bg-Pembe w-96 h-96 rounded-3xl relative z-10 "
               src=""
             />
           </div>

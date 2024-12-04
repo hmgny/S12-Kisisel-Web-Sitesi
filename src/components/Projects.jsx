@@ -12,13 +12,13 @@ function Projects() {
         {content.projectsTitle}
       </header>
 
-      <div className="lg:flex lg:p-8 lg:gap-20 lg:justify-center whitespace-pre-wrap ">
+      <div className="flex lg:p-8 lg:gap-20 p-3 gap-10 justify-center whitespace-pre-wrap ">
         {content.projeler.map((proje) => {
           return (
-            <div className=" bg-Mavi rounded-xl flex flex-col justify-between w-[600px] dark:bg-darkYesil">
-              <div className="pt-10 px-8 gap-6 flex flex-col">
-                <h3 className="text-3xl font-bold">{proje.projeAdi}</h3>
-                <p className="pr-16 text-base max-w-[420px] leading-6 font-normal">
+            <div className=" bg-Mavi rounded-xl flex flex-col justify-between w-80 lg:w-[600px] dark:bg-darkYesil">
+              <div className="pt-10 px-8 lg:gap-6 gap-2 flex flex-col">
+                <h3 className="lg:text-3xl text-xl flex justify-center lg:justify-start font-bold">{proje.projeAdi}</h3>
+                <p className="lg:pr-16 lg:text-base text-sm lg:max-w-[420px] lg:leading-6 font-normal">
                   {proje.aciklama}
                 </p>
                 <div className="flex flex-wrap max-w-80 gap-2">
@@ -26,19 +26,19 @@ function Projects() {
                     return (
                       <button
                         key={index}
-                        className="bg-white border-none w-20 h-8 rounded-border72px text-base font-medium dark:bg-Info"
+                        className="bg-white border-none w-12 lg:w-20 h-5 lg:h-8 rounded-border72px lg:text-base text-xs font-medium dark:bg-Info"
                       >
                         {data.button}
                       </button>
                     );
                   })}
                 </div>
-                <div className="flex justify-between pt-8 pb-20 font-bold">
+                <div className="flex justify-between lg:pt-8 pt-4 lg:pb-20 pb-10 font-bold">
                   {proje.links.map((link, index) => {
                     return (
                       <a
                         key={index}
-                        className="text-xl text-black no-underline dark:text-white"
+                        className="lg:text-xl text-sm text-black no-underline dark:text-white"
                         href=""
                       >
                         {link.link}
@@ -56,24 +56,24 @@ function Projects() {
           );
         })}
       </div>
-      <footer className="flex justify-center p-40 gap-16">
-        <p className="text-5xl max-w-96 flex flex-col text-end leading-[63px]">
+      <footer className="flex justify-center p-10 lg:p-40 gap-16">
+        <p className="lg:text-5xl text-3xl max-w-96 flex flex-col text-end lg:leading-[63px]">
           {content.footer.message}
         </p>
         <nav className="flex flex-col leading-9">
-          <a className="no-underline text-2xl text-Github" href="">
+          <a className="no-underline lg:text-2xl text-xl text-Github" href="">
             Github
           </a>
           <a
-            className="no-underline text-2xl text-Siyah0a0a14 dark:text-white"
+            className="no-underline lg:text-2xl text-xl text-Siyah0a0a14 dark:text-white"
             href=""
           >
             Personel Blog
           </a>
-          <a className="no-underline text-2xl text-Linkedin" href="">
+          <a className="no-underline lg:text-2xl text-xl text-Linkedin" href="">
             Linkedin
           </a>
-          <a className="no-underline text-2xl text-mail" href="">
+          <a className="no-underline lg:text-2xl text-xl text-mail" href="">
             Email
           </a>
         </nav>

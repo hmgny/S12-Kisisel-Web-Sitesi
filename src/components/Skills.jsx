@@ -13,7 +13,7 @@ function Skills() {
                 {content.skill?.map((veri,id)=>{
                     return <div key={id} className="flex-col">
                     <img className="lg:w-32 w-16 md:w-24 lg:aspect-square ml:aspect-square aspect-square lg:object-cover object-cover md:object-cover" src={veri.img}/>
-                    <p className="text-Gri text-2xl flex justify-center pt-4 dark:text-skill ">{veri.skill}</p>
+                    <p className="text-Gri lg:text-2xl text-lg flex justify-center pt-4 dark:text-skill ">{veri.skill}</p>
                 </div>
                 })}
             </div>
