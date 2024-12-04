@@ -51,7 +51,7 @@ function Header() {
           </button>
         </section>
 
-        <section className="max-w flex gap-4">
+        <section className="lg:max-w lg:flex lg:gap-4 whitespace-break-spaces" >
           <div className="flex flex-col gap-10">
             <img
               className="w-24"
@@ -61,7 +61,7 @@ function Header() {
             <p className="text-5xl leading-snug max-w-screen-md">
               {content.paragraf}
             </p>
-            <div className="gap-6 flex">
+            <div className="lg:gap-6 lg:flex hidden">
               <img
                 className="w-8 h-9"
                 src="../public/images/LinkedIn.png"
@@ -73,7 +73,7 @@ function Header() {
                 alt="github simmgesi"
               />
             </div>
-            <p className="text-lg max-w-md leading-normal">
+            <p className="lg:text-lg lg:max-w-md lg:leading-normal hidden">
               {content.aciklama}
             </p>
             {/*<p className='text-lg max-w-md leading-normal'>Currently <span className='text-Bordo'>Freelancing</span> for <span className='text-Bordo'>UX, UI, & Web Design</span> Project. Invite me to join your team → <span className='text-Bordo underline'>pratamaiosi@gmail.com</span></p> */}

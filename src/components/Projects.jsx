@@ -12,7 +12,7 @@ function Projects() {
         {content.projectsTitle}
       </header>
 
-      <div className="flex p-8 gap-20 justify-center">
+      <div className="lg:flex lg:p-8 lg:gap-20 lg:justify-center whitespace-pre-wrap ">
         {content.projeler.map((proje) => {
           return (
             <div className=" bg-Mavi rounded-xl flex flex-col justify-between w-[600px] dark:bg-darkYesil">

@@ -11,7 +11,7 @@ function Profile() {
     return (
         <div className="flex flex-col bg-lightGray py-20 px-32 dark:bg-darkGray dark:text-white">
             <header className="text-5xl flex justify-center pb-12 ">{content.profileTitle}</header>
-            <div className="flex justify-center">
+            <div className="lg:flex lg:justify-center whitespace-pre-wrap">
                 <div>
                 <div className="bg-white m-12 p-12 mt-0 flex flex-col leading-6 rounded-xl w-[520px] h-h320 absolute z-20 gap-6 dark:bg-Info">
                     <section className="text-2xl text-Pembe">{content.basicTitle}</section>

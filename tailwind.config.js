@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import plugin from 'tailwindcss/plugin';
 export default {
   content: ["./index.html","./src/**/*.{js,ts,jsx,tsx}",],
   darkMode:"class",
@@ -32,9 +33,25 @@ export default {
       },
       borderRadius:{
         border72px :"72px"
+      },
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+        
       }
     },
   },
-  plugins: [],
+  plugins: [
+   /* plugin(function ({ addUtilities }) {
+      addUtilities({
+        "*": {
+          border: "1px solid rgba(0, 0, 0, 0.5) " 
+        },
+      });
+    }),*/
+  ],
 }
 
