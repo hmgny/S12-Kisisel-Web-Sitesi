@@ -7,8 +7,8 @@ function Skills() {
     const content = data[language]?.skills || {};
 
     return (
-        <div className="flex flex-col items-center gap-12 p-20 dark:bg-middlegray">
-            <p className="text-Siyah0a0a14 text-5xl dark:text-lightGray">{content.skillsTitle}</p>
+        <div className="flex flex-col items-center gap-12 p-20 pb-36 dark:bg-middlegray">
+            <p className="text-Siyah0a0a14 text-6xl dark:text-lightGray">{content.skillsTitle}</p>
             <div className="flex gap-12">
                 {content.skill?.map((veri,id)=>{
                     return <div key={id} className="flex-col">

@@ -52,7 +52,7 @@ function Header() {
         </section>
 
         <section className="max-w flex gap-4">
-          <div className="flex flex-col gap-12">
+          <div className="flex flex-col gap-10">
             <img
               className="w-24"
               src="../public/images/Hi!.png"
@@ -79,7 +79,7 @@ function Header() {
             {/*<p className='text-lg max-w-md leading-normal'>Currently <span className='text-Bordo'>Freelancing</span> for <span className='text-Bordo'>UX, UI, & Web Design</span> Project. Invite me to join your team → <span className='text-Bordo underline'>pratamaiosi@gmail.com</span></p> */}
           </div>
 
-          <div>
+          <div className="pt-6">
             <img
               className="w-96 aspect-square rounded-3xl object-cover absolute z-20 translate-x-7 translate-y-7"
               src="../public/images/profil.png"
