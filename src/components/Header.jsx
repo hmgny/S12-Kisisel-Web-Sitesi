@@ -53,11 +53,14 @@ function Header() {
 
         <section className="lg:max-w lg:flex lg:gap-4 whitespace-break-spaces" >
           <div className="flex flex-col gap-10">
+            <div className="flex">
+            <p className="text-2xl lg:text-5xl">{content.hi} </p>
             <img
-              className="w-24"
+              className="w-8 lg:w-16"
               src="../public/images/Hi!.png"
               alt="el simgesi"
             />
+            </div>       
             <p className="lg:text-5xl lg:leading-snug lg:max-w-screen-md flex text-2xl py-3">
               {content.paragraf}
             </p>
