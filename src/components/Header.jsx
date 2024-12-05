@@ -64,7 +64,7 @@ function Header() {
               <p className="text-2xl lg:text-4xl xl:text-5xl">{content.hi} </p>
               <img
                 className="w-8 lg:w-16"
-                src="/images/hi!.png"
+                src="/images/Hi!.png"
                 alt="el simgesi"
               />
             </div>
