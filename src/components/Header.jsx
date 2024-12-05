@@ -8,11 +8,7 @@ function Header() {
 
   const handleClick = () => {
     setTheme(theme === "light" ? "dark" : "light");
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
+
   };
 
   const { language, setLanguage } = useContext(LanguageContext);
@@ -30,7 +26,7 @@ function Header() {
             <button
               onClick={handleClick}
               className={`${
-                theme === "dark" ? "justify-end" : "justify-start"
+                theme === "light" ? "justify-end" : "justify-start"
               } bg-Pembe w-14 h-6 rounded-full border-none flex items-center`}
             >
               <div className="bg-Sari w-4 h-4 mx-1 rounded-full border-none"></div>
@@ -42,7 +38,7 @@ function Header() {
               theme === "light" ? "text-white" : "text-black"
             } sm:text-Gri text-sm flex sm:items-center`}
           >
-            {theme === "dark" ? content.mode.dark : content.mode.light}
+            {theme === "light" ? content.mode.dark : content.mode.light}
           </button>
 
           <button
