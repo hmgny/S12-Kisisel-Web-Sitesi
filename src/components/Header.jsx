@@ -35,7 +35,7 @@ function Header() {
           <button
             onClick={handleClick}
             className={`${
-              theme === "light" ? "text-white" : "text-black"
+              theme === "dark" ? "text-white" : "text-black"
             } sm:text-Gri text-sm flex sm:items-center`}
           >
             {theme === "light" ? content.mode.dark : content.mode.light}
