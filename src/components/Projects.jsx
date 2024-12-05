@@ -7,15 +7,15 @@ function Projects() {
   const content = data[language]?.projects || {};
 
   return (
-    <div className="p-24 dark:bg-middlegray dark:text-white">
+    <div className="lg:p-24 p-5 dark:bg-middlegray dark:text-white ">
       <header className="flex justify-center text-5xl pb-6">
         {content.projectsTitle}
       </header>
 
-      <div className="flex lg:p-8 lg:gap-20 p-3 gap-10 justify-center whitespace-pre-wrap ">
+      <div className="flex lg:p-8 lg:gap-20 p-3 gap-10 lg:justify-center lg:flex-row flex-col items-center">
         {content.projeler.map((proje) => {
           return (
-            <div className=" bg-Mavi rounded-xl flex flex-col justify-between w-80 lg:w-[600px] dark:bg-darkYesil">
+            <div className=" bg-Mavi rounded-xl flex flex-col justify-center lg:justify-between w-80 lg:w-[600px] lg:h-[850px] dark:bg-darkYesil">
               <div className="pt-10 px-8 lg:gap-6 gap-2 flex flex-col">
                 <h3 className="lg:text-3xl text-xl flex justify-center lg:justify-start font-bold">{proje.projeAdi}</h3>
                 <p className="lg:pr-16 lg:text-base text-sm lg:max-w-[420px] lg:leading-6 font-normal">
