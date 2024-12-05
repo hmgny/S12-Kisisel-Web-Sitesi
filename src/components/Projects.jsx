@@ -50,7 +50,7 @@ function Projects() {
 
               <img
                 className="max-w-full h-auto text-end"
-                src="../public/images/proje.png"
+                src="/images/proje.png"
               />
             </div>
           );

@@ -68,7 +68,7 @@ function Header() {
               <p className="text-2xl lg:text-4xl xl:text-5xl">{content.hi} </p>
               <img
                 className="w-8 lg:w-16"
-                src="../public/images/Hi!.png"
+                src="/images/Hi!.png"
                 alt="el simgesi"
               />
             </div>
@@ -78,12 +78,12 @@ function Header() {
             <div className="xl:gap-6 lg:gap-2 lg:flex hidden">
               <img
                 className="lg:w-6 lg:h-7 xl:w-8 xl:h-9"
-                src="../public/images/LinkedIn.png"
+                src="/images/LinkedIn.png"
                 alt="linkedin"
               />
               <img
                 className="lg:w-6 lg:h-7 xl:w-8 xl:h-9"
-                src="../public/images/github.svg"
+                src="/images/github.svg"
                 alt="github simmgesi"
               />
             </div>
@@ -96,7 +96,7 @@ function Header() {
           <div className="pt-6 flex justify-center">
             <img
               className="xl:w-96 lg:w-64 w-56 aspect-square rounded-3xl object-cover absolute z-20 xl:translate-x-7 xl:translate-y-7 lg:translate-x-4 lg:translate-y-4 translate-x-2 translate-y-2"
-              src="../public/images/profil.png"
+              src="/images/profil.png"
               alt="Profil resmi"
             />
             <div
