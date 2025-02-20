@@ -87,6 +87,8 @@
           "projeAdi": "MEYA SHOP",
           "aciklama": "Do you need to go shopping?.. Do you want to buy a gift for your loved ones?.. Discounts are waiting for you at MeyaShop. You can examine the products on the home page, see product details, add products to your cart and complete your shopping. You can see the order details when your shopping is completed.",
           "img": "/images/ecommerce.jpg",
+          "web": "https://frontend-final-project-e-commerce-754k1fdg9.vercel.app/",
+          "github": "https://github.com/hmgny/Frontend_Final_Project_e-commerce",
           "links": [
             {
               "link": "Viev on Github"
@@ -120,6 +122,8 @@
           "projeAdi": "CODE PIZZA?!",
           "aciklama": "How about a delicious pizza?!... You can examine the pizzas and delicious foods given on the home page, if you wish, you can be directed to the order by clicking on the buttons I'm Hungry, Order or taken directly to the place of sale, there you can order the temperature of a pizza, the temperature of the dough, and if you wish, your additional products and you can order them. When your order is completed, the details of the order will be visible.",
           "img": "/images/pizza_home_basic.jpg",
+          "web": "",
+          "github": "",
           "links": [
             {
               "link": "View on Github"
@@ -137,9 +141,6 @@
             },
             {
               "button": "router"
-            },
-            {
-              "button": "vercel"
             }
           ]
         }
@@ -252,6 +253,9 @@
           "projeAdi": "MEYA SHOP",
           "aciklama": "Alışverişe mi ihtiyacın var?..Sevdiklerine hediye mi almak istiyorsun?.. MeyaShopta indirimler seni bekliyor. Ana sayfada listelenen ürünleri inceleyebilir, ürün detaylarını görebilir, ürünleri sepete ekleyebilir ve alışverişini tamamlayabilirsin. Alışverişin tamamlandığında sipariş detaylarını görebilirsin.",
           "img": "/images/ecommerce.jpg",
+          "web": "https://frontend-final-project-e-commerce-754k1fdg9.vercel.app/",
+          "github": "https://github.com/hmgny/Frontend_Final_Project_e-commerce",
+
           "links": [
             {
               "link": "Github'da görüntüle"
@@ -285,6 +289,9 @@
           "projeAdi": "KOD PİZZA?!",
           "aciklama": "Nefis bir pizzaya ne dersin?!...Ana sayfada listelenen pizzaları ve birbirinden lezzetli yemekleri inceleyebilir, dilersen Acıktım, Sipariş Ver veya direk ürünlerin yer aldığı butonlara tıklayarak sipariş sayfasına yönlendirilirsin, orada bir pizzanın boyutunu, hamur kalınlığını, dilersen ek ürünleri seçebilir ve siparişini tamamlayabilirsin. Siparişin tamamlandığında siparişinin detaylarını görebilirsin.",
           "img": "/images/pizza_home_basic.jpg",
+          "web": "",
+          "github": "",
+
           "links": [
             {
               "link": "Github'da görüntüle"
@@ -302,9 +309,6 @@
             },
             {
               "button": "router"
-            },
-            {
-              "button": "vercel"
             }
           ]
         }

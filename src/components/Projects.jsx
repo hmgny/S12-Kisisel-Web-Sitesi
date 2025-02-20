@@ -77,7 +77,7 @@ function Projects() {
           </a>
           <a
             className="no-underline lg:text-2xl text-xl text-Siyah0a0a14 dark:text-white"
-            href=""
+            href="https://s12-kisisel-web-sitesi.vercel.app/"
           >
             Personel Blog
           </a>
