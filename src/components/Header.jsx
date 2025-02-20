@@ -8,7 +8,6 @@ function Header() {
 
   const handleClick = () => {
     setTheme(theme === "light" ? "dark" : "light");
-
   };
 
   const { language, setLanguage } = useContext(LanguageContext);
@@ -92,7 +91,7 @@ function Header() {
           <div className="pt-6 flex justify-center">
             <img
               className="xl:w-96 lg:w-64 w-56 aspect-square rounded-3xl object-cover absolute z-20 xl:translate-x-7 xl:translate-y-7 lg:translate-x-4 lg:translate-y-4 translate-x-2 translate-y-2"
-              src="/images/profil.png"
+              src="/images/profill.jpg"
               alt="Profil resmi"
             />
             <div

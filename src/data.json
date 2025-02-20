@@ -6,8 +6,8 @@
         "dark": "DARK MODE"
       },
       "hi": "Hi!",
-      "paragraf": "I'm Almila. I'm a full-stack developer. I can craft solid and scalable frontend products. Let's meet!",
-      "aciklama": "Currently Freelancing for UX, UI, & Web Design Project. Invite me to join your team → pratamaiosi@gmail.com"
+      "paragraf": "I'm Merve. I'm a full-stack developer. I can craft solid and scalable frontend products. Let's meet!",
+      "aciklama": "I am currently developing myself in the Back-End field while also working on Front-End designs. Invite me to join your team → hmerveguney@gmail.com"
     },
     "skills": {
       "skillsTitle": "Skills",
@@ -51,33 +51,29 @@
         {
           "id": 1,
           "soru": "Date of birth",
-          "cevap": "24.03.1996"
+          "cevap": "09.10.1992"
         },
         {
           "id": 2,
           "soru": "City of residence",
-          "cevap": "Ankara"
+          "cevap": "Istanbul"
         },
         {
           "id": 3,
           "soru": "Educational Status",
-          "cevap": "Hacettepe University Undergraduate Biology, 2016"
+          "cevap": "Istanbul University Cerrahpasa, Master's Program in Geological Engineering, 2023"
         },
         {
           "id": 4,
           "soru": "Preferred Role",
-          "cevap": "Frontend, UI"
+          "cevap": "Full-Stack Developer"
         }
       ],
       "aboutTitle": "About Me",
       "aboutMe": [
         {
           "id": 1,
-          "paragraf": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia."
-        },
-        {
-          "id": 2,
-          "paragraf": "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+          "paragraf": "I am a full-stack developer candidate who embarked on a brand new adventure with enthusiasm, passion and excitement. My full-stack development journey, where I can crown my engineering, project management and teamwork skills that I gained with my 5-year Geological Engineering education and my completed master's program and sail to different horizons, started with the 6-month intensive full-stack development program prepared by Workintech. I completed the 3-month front-end section of the program. I continue my full-stack education and improve myself in this regard."
         }
       ]
     },
@@ -86,6 +82,8 @@
       "projeler": [
         {
           "id": 1,
+          "color": "Mavi",
+          "darkcolor": "#2D3235",
           "projeAdi": "Random Jokes",
           "aciklama": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
           "img": "",
@@ -114,6 +112,8 @@
         },
         {
           "id": 2,
+          "color": "Yesil",
+          "darkcolor": "#495351",
           "projeAdi": "Are you bored?",
           "aciklama": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
           "links": [
@@ -170,8 +170,8 @@
         "dark": "KOYU MODE"
       },
       "hi": "Merhaba!",
-      "paragraf": "Ben Almila. Full-stack geliştiriciyim. Solid ve ölçeklenebilir frontend ürünleri geliştirebilirim. Hadi tanışalım!",
-      "aciklama": "Şu anda UX, UI ve Web Tasarım projeleri için serbest çalışıyorum. Ekibinize katılmam için beni davet edin → pratamaiosi@gmail.com"
+      "paragraf": "Ben Merve. Full-stack geliştiriciyim. Sağlam ve ölçeklenebilir frontend ürünleri geliştirebilirim. Hadi tanışalım!",
+      "aciklama": "Şu anda kendimi Back-End alanında geliştirirken aynı zamanda Front-End tasarımları üzerinde de çalışıyorum. Beni ekibinize katılmaya davet edin → hmerveguney@gmail.com"
     },
     "skills": {
       "skillsTitle": "Yetenekler",
@@ -215,33 +215,29 @@
         {
           "id": 1,
           "soru": "Doğum tarihi",
-          "cevap": "24.03.1996"
+          "cevap": "09.10.1992"
         },
         {
           "id": 2,
           "soru": "İkamet Şehri",
-          "cevap": "Ankara"
+          "cevap": "İstanbul"
         },
         {
           "id": 3,
           "soru": "Eğitim Durumu",
-          "cevap": "Hacettepe Ünv. Biyoloji Lisans, 2016"
+          "cevap": "İstanbul Üniversitesi Cerrahpaşa, Jeoloji Mühendisliği Yüksek Lisans Programı, 2023"
         },
         {
           "id": 4,
           "soru": "Tercih Ettiği Rol",
-          "cevap": "Frontend, UI"
+          "cevap": "Full-Stack Developer"
         }
       ],
       "aboutTitle": "Hakkımda",
       "aboutMe": [
         {
           "id": 1,
-          "paragraf": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia."
-        },
-        {
-          "id": 2,
-          "paragraf": "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+          "paragraf": "Ben, heyecan, tutku ve coşkuyla yeni bir maceraya atılan bir full-stack developer adayım. Mühendislik, proje yönetimi ve ekip çalışması becerilerimi taçlandırabileceğim ve 5 yıllık Jeoloji Mühendisliği eğitimim ile tamamladığım yüksek lisans programımda edindiğim bilgileri farklı ufuklara yelken açarak kullanabileceğim full-stack geliştirme yolculuğum, Workintech tarafından hazırlanan 6 aylık yoğun full-stack geliştirme programı ile başladı. Programın 3 aylık front-end bölümünü tamamladım. Full-stack eğitimime devam ediyor ve bu alanda kendimi geliştirmeye devam ediyorum."
         }
       ]
     },
@@ -250,6 +246,8 @@
       "projeler": [
         {
           "id": 1,
+          "color": "Mavi",
+          "darkcolor": "#2D3235",
           "projeAdi": "Rastgele Şakalar",
           "aciklama": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
           "links": [
@@ -277,6 +275,8 @@
         },
         {
           "id": 2,
+          "color": "Yesil",
+          "darkcolor": "#495351",
           "projeAdi": "Sıkıldın mı?",
           "aciklama": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
           "img": "",
