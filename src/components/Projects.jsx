@@ -17,11 +17,13 @@ function Projects() {
           return (
             <div className=" bg-Mavi rounded-xl flex flex-col justify-center lg:justify-between w-80 lg:w-[600px] lg:h-[850px] dark:bg-darkYesil">
               <div className="pt-10 px-8 lg:gap-6 gap-2 flex flex-col">
-                <h3 className="lg:text-3xl text-xl flex justify-center lg:justify-start font-bold">{proje.projeAdi}</h3>
-                <p className="lg:pr-16 lg:text-base text-sm lg:max-w-[420px] lg:leading-6 font-normal">
+                <h3 className="lg:text-3xl text-xl flex justify-center lg:justify-start font-bold">
+                  {proje.projeAdi}
+                </h3>
+                <p className="lg:pr-16 lg:text-base text-sm lg:max-w-[960px] lg:leading-6 font-normal">
                   {proje.aciklama}
                 </p>
-                <div className="flex flex-wrap max-w-80 gap-2">
+                <div className="flex flex-wrap gap-2">
                   {proje.buttons.map((data, index) => {
                     return (
                       <button
@@ -47,11 +49,17 @@ function Projects() {
                   })}
                 </div>
               </div>
-
-              <img
-                className="max-w-full h-auto text-end"
-                src="/images/proje.png"
-              />
+              <div className="relative">
+                <img
+                  className="max-w-full h-auto text-end"
+                  src="/images/proje.png"
+                />
+                <img
+                  className="absolute top-[5%] left-[15%] w-[70%] h-[77%] object-cover"
+                  src={proje.img}
+                  alt="Project screenshot"
+                />
+              </div>
             </div>
           );
         })}
@@ -61,7 +69,10 @@ function Projects() {
           {content.footer.message}
         </p>
         <nav className="flex flex-col leading-9">
-          <a className="no-underline lg:text-2xl text-xl text-Github" href="">
+          <a
+            className="no-underline lg:text-2xl text-xl text-Github"
+            href="https://github.com/hmgny"
+          >
             Github
           </a>
           <a
@@ -70,10 +81,16 @@ function Projects() {
           >
             Personel Blog
           </a>
-          <a className="no-underline lg:text-2xl text-xl text-Linkedin" href="">
+          <a
+            className="no-underline lg:text-2xl text-xl text-Linkedin"
+            href="https://www.linkedin.com/in/hanife-merve-%C3%B6nal-a0181b24b/"
+          >
             Linkedin
           </a>
-          <a className="no-underline lg:text-2xl text-xl text-mail" href="">
+          <a
+            className="no-underline lg:text-2xl text-xl text-mail"
+            href="mailto:hmerveguney@gmail.com"
+          >
             Email
           </a>
         </nav>
